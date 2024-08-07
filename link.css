@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    font-size: 60px;
+}
+a i{
+    padding: 30px;
+    transition: all 0.3s linear;
+    border: 1px solid #dcdde1;
+    border-radius: 80px;
+    box-shadow: 1px 10px 2px #7f8fa6;
+}
+a:hover i{
+    font-size: 75px;
+}
+.fa-facebook-f{
+    color: #0866ff;
+}
+.fa-x-twitter{
+    color:black;
+}
+.fa-instagram{
+    color: #e84118;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.fa-linkedin-in{
+    color: #487eb0;
+}
